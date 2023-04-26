@@ -61,7 +61,7 @@ h6 {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
     #leftsidebar {
         width: 220px; 
         float: right;
