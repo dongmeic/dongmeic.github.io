@@ -61,24 +61,14 @@ h6 {
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1079px) /* Four columns that float next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* If a screen is 992px or less wide, keep two columns */
-@media screen and (max-width: 992px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* If a screen is 600px or less wide, stack the columns on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+@media screen and (min-width: 600px) {
+    #leftsidebar {
+        width: 220px; 
+        float: right;
+    }
+    #main {
+        margin-right: 250px;
+    }
 }
 
 ::-moz-selection {
