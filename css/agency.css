@@ -581,7 +581,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
-  position: relative;
+  display:block;
   width: 225px;
   height: 225px;
   border: 7px solid rgba(0, 0, 0, 0.1);
