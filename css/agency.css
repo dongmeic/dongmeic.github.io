@@ -586,7 +586,7 @@ header.masthead .intro-text .intro-heading {
   border: 7px solid rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (orientation: landscape) and (max-width: 480px){
   .team-member img {
     display: none;
   }
