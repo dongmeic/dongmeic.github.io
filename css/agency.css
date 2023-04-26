@@ -580,12 +580,6 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-@media screen and (max-width: 900px) {
-  .team-member img {
-    margin-left: -50px;
-  }
-}
-
 .team-member img {
   width: 225px;
   height: 225px;
