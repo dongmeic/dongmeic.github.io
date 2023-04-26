@@ -61,14 +61,10 @@ h6 {
   }
 }
 
-@media screen and (min-width: 900px) {
-    #leftsidebar {
-        width: 220px; 
-        float: right;
-    }
-    #main {
-        margin-right: 250px;
-    }
+@media screen and (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
 }
 
 ::-moz-selection {
