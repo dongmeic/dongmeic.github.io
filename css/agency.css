@@ -586,7 +586,7 @@ header.masthead .intro-text .intro-heading {
   border: 7px solid rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 480px) and (orientation: landscape){ /* The element will be hidden if the screen is 600px wide or less */
+@media only screen and (min-width: 481px) and (orientation: landscape){ /* The element will be hidden if the screen is 600px wide or less */
   .team-member img {
     display: block;
   }
