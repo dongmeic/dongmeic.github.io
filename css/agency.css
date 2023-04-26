@@ -584,6 +584,7 @@ header.masthead .intro-text .intro-heading {
   width: 225px;
   height: 225px;
   border: 7px solid rgba(0, 0, 0, 0.1);
+  float:left;
 }
 
 .team-member h4 {
