@@ -15,11 +15,11 @@ p {
 }
 
 a {
-  color: #154733;
+  color: #0096FF; *#154733
 }
 
 a:hover {
-  color: #fec503;
+  color: #AC001E; *#fec503
 }
 
 .text-primary {
@@ -176,7 +176,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: black;
+  color: #fec503;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -190,7 +190,8 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  color: #154733;
+  font-size: 30px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
@@ -585,6 +586,12 @@ header.masthead .intro-text .intro-heading {
   border: 7px solid rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (max-width: 900px){
+  .team-member img {
+    display: none;
+  }
+}
+
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -601,12 +608,11 @@ header.masthead .intro-text .intro-heading {
 
 .list-inline {
   padding-left: 0;
-  margin-left: -5px;
   list-style: none;
 }
 
 .list-inline > li {
-  display: inline-block;
+  display: inline-block; 
   padding-right: 5px;
   padding-left: 5px;
 }
